@@ -1,0 +1,28 @@
+quick_test : False
+use_prepose : True
+
+picklepath : "F://GENEA2023//genea2023_dataset//pickle"
+ckptpath : "ckpts//"
+outputpath : "outputs//bvh//"
+
+calculate_mean : False
+use_beat : False
+traindata_interval : 1.0 # second
+valdata_interval : 4.0 # second
+
+epochs : 100
+batch_size : 8
+learning_rate : 0.001
+
+frame_length : 128
+pre_frame : 8
+fps : 30
+
+model :
+  pose_dim : 78
+  pose_embed_dim : 128
+  pose_embedder_n_layers : 3
+  pose_decoder_n_layers : 3
+
+  motion_embedder_n_layers : 3
+  motion_decoder_n_layers : 3
