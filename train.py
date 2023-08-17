@@ -14,7 +14,7 @@ from diffusion.script_util import (
 from diffusion.train_util import TrainLoop
 
 from config.parse_config import parse_config
-from dataloader.diffusion_tensor  import Diffusiondataset, collate_fn, collate_fn_no_prepose
+from dataloader.diffusion  import Diffusiondataset, collate_fn, collate_fn_no_prepose
 from torch.utils.data import DataLoader
 
 def main(config, pre_config) :

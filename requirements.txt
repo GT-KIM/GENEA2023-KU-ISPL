@@ -1,0 +1,17 @@
+h5py
+joblib
+librosa
+matplotlib
+numpy
+pandas
+praat-parselmouth
+pydub
+scikit-learn
+scipy
+SoundFile
+tensorboardX
+torch
+tqdm
+transforms3d
+blobfile>=1.0.5
+transformers
